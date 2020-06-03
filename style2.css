@@ -1,0 +1,87 @@
+body {
+	
+}
+
+span {
+	color: red;
+  display: none;
+}
+p:hover > span {
+  display: block;
+}
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 30px;
+	margin: auto;
+}
+
+
+#first {
+	margin-top: 200px;
+}
+
+#second td{
+	border: none;
+	margin: auto;
+}
+
+.sub {
+	border: 1px solid black;
+	border-radius: 5px;
+  margin-left: 35%;
+	width: 70px;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 5px;
+	height: 30px;
+}
+
+
+
+div {
+      width: 30px;
+      height: 10px;
+      border-radius: 5px;
+      background: none;
+      border: 1px solid black;
+      margin: auto;
+    }
+
+p {
+	margin: auto;
+	width: auto;
+}
+
+tr:visited {
+	background-color: skyblue;
+	
+}
+
+#first input[type='checkbox']{
+margin-left: 45%;
+}
+
+#placeholder {
+	width: 350px;
+}
+
+.vit {
+	position: absolute;
+	top:0px;
+	left: 25%;
+}
+
+#second{
+	top:130px;
+}
+
+#second input[type='submit'] {
+	margin-top: 5px;
+}
+
+#three {
+	margin-top: 20px;
+}
